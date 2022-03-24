@@ -16,14 +16,14 @@ const Home = () => {
           development both in web and mobile application.
         </p>
         <div>
-          <button className='border-violet-500 text-black group border-2 px-6 py-3 my-2 flex items-center hover:bg-violet-500 hover:violet-500'>
-            <Link to='projects' smooth={true} duration={500}>
+          <Link to='projects' smooth={true} duration={500}>
+            <button className='border-violet-500 text-black group border-2 px-6 py-3 my-2 flex items-center hover:bg-violet-500 hover:violet-500'>
               View Projects
               <span className='group-hover:rotate-90 duration-300'>
-                <HiArrowNarrowRight className='ml-3' />
+                <HiArrowNarrowRight className='ml-3 ' />
               </span>
-            </Link>
-          </button>
+            </button>
+          </Link>
         </div>
       </div>
     </div>

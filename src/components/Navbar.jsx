@@ -19,26 +19,26 @@ const Navbar = () => {
 
       {/* menu */}
       <ul className='hidden md:flex'>
-        <li className='border-b-4 border-violet-500 rounded-xl mx-3 hover:bg-violet-600 hover:text-white'>
-          <Link to='home' smooth={true} duration={500}>
+        <Link to='home' smooth={true} duration={500}>
+          <li className='border-b-4 border-violet-500 rounded-xl mx-3 hover:bg-violet-600 hover:text-white'>
             Home
-          </Link>
-        </li>
-        <li className='border-b-4 border-violet-500 rounded-xl mx-3 hover:bg-violet-600 hover:text-white'>
-          <Link to='about' smooth={true} duration={500}>
+          </li>
+        </Link>
+        <Link to='about' smooth={true} duration={500}>
+          <li className='border-b-4 border-violet-500 rounded-xl mx-3 hover:bg-violet-600 hover:text-white'>
             About
-          </Link>
-        </li>
-        <li className='border-b-4 border-violet-500 rounded-xl mx-3 hover:bg-violet-600 hover:text-white'>
-          <Link to='skills' smooth={true} duration={500}>
+          </li>
+        </Link>
+        <Link to='skills' smooth={true} duration={500}>
+          <li className='border-b-4 border-violet-500 rounded-xl mx-3 hover:bg-violet-600 hover:text-white'>
             Skills
-          </Link>
-        </li>
-        <li className='border-b-4 border-violet-500 rounded-xl mx-3 hover:bg-violet-600 hover:text-white'>
-          <Link to='projects' smooth={true} duration={500}>
+          </li>
+        </Link>
+        <Link to='projects' smooth={true} duration={500}>
+          <li className='border-b-4 border-violet-500 rounded-xl mx-3 hover:bg-violet-600 hover:text-white'>
             Projects
-          </Link>
-        </li>
+          </li>
+        </Link>
       </ul>
 
       {/* Hamburger */}
