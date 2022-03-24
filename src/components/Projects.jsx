@@ -28,10 +28,10 @@ const Projects = () => {
               <p className='text-xs font-bold text-gray-300 pl-1'>
                 Color palette generator built with vanilla JS
               </p>
-              <div className='cursor-not-allowed mt-8 text-center'>
-                <a className='pointer-events-none' href='/'>
+              <div className='mt-8 text-center'>
+                <a href='https://hafidzsulistyan.github.io/coloorish/' rel='noreferrer' target='_blank'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    No Live Demo
+                    Live Demo
                   </button>
                 </a>
                 <a href='https://github.com/hafidzsulistyan/coloorish'>
