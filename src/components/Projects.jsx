@@ -10,7 +10,7 @@ const Projects = () => {
           <p className='text-4xl font-bold inline border-b-4 text-[#0f4077] border-violet-500'>
             Projects
           </p>
-          <p className='py-6'>// These are some of the projects that I've recently built</p>
+          <p className='py-6'>\\ These are some of the projects that I've recently built</p>
         </div>
 
         {/* Container */}
